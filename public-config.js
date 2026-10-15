@@ -1,11 +1,10 @@
 /*
- * Public browser configuration only.
- * The Supabase URL and publishable/anon key are designed for browser use.
- * NEVER put provider client secrets, service_role keys, passwords, or JWT secrets here.
+ * Ly AI Studio public browser configuration.
+ * Never put secret keys or passwords here.
  */
 window.LY_AI_CONFIG = Object.freeze({
-  supabaseUrl: "",
-  supabaseAnonKey: "",
+  supabaseUrl: "  https://200qwertyuiopas-oss.github.io/Ly-AI/",
+  supabaseAnonKey: "sb_publishable_uVQyiPxUnFRYuAQDhcT1hw_Vjkxtlwq",
   localAgentUrl: "http://127.0.0.1:5000",
   version: "3.0.0"
 });
